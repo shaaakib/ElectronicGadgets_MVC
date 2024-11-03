@@ -21,7 +21,7 @@ namespace ElectronicGadgets.DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ElectronicGadgetsWeb.Models.Category", b =>
+            modelBuilder.Entity("ElectronicGadgets.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

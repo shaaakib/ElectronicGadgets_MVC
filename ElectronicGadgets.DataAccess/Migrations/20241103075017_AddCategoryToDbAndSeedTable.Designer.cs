@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ElectronicGadgets.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241019104040_SeedCategoryTable")]
-    partial class SeedCategoryTable
+    [Migration("20241103075017_AddCategoryToDbAndSeedTable")]
+    partial class AddCategoryToDbAndSeedTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,7 +24,7 @@ namespace ElectronicGadgets.DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("ElectronicGadgetsWeb.Models.Category", b =>
+            modelBuilder.Entity("ElectronicGadgets.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
