@@ -1,4 +1,4 @@
-namespace ElectronicGadgetsWeb.Models
+namespace ElectronicGadgets.Models
 {
     public class ErrorViewModel
     {

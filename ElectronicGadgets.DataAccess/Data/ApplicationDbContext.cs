@@ -1,7 +1,7 @@
-﻿using ElectronicGadgetsWeb.Models;
+﻿using ElectronicGadgets.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ElectronicGadgetsWeb.Data
+namespace ElectronicGadgets.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {

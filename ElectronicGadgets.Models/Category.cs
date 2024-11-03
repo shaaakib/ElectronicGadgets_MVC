@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace ElectronicGadgetsWeb.Models
+namespace ElectronicGadgets.Models
 {
     public class Category
     {

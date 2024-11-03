@@ -1,5 +1,5 @@
-﻿using ElectronicGadgetsWeb.Data;
-using ElectronicGadgetsWeb.Models;
+﻿using ElectronicGadgets.DataAccess.Data;
+using ElectronicGadgets.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ElectronicGadgetsWeb.Controllers

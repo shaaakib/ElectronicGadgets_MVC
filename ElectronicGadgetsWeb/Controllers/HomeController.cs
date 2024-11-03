@@ -1,4 +1,4 @@
-using ElectronicGadgetsWeb.Models;
+using ElectronicGadgets.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

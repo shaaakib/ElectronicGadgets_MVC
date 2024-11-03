@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace ElectronicGadgetsWeb.Migrations
+namespace ElectronicGadgets.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryDB : Migration

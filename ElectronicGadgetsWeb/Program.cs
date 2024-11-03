@@ -1,4 +1,4 @@
-using ElectronicGadgetsWeb.Data;
+using ElectronicGadgets.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
